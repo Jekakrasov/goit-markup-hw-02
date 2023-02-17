@@ -1,8 +1,8 @@
-body {
-  font-family: "Raleway", sans-serif;
+/* colors */
 
-  font-family: "Roboto Mono", monospace;
+body {
   font-family: "Roboto", sans-serif;
+  background: #ffffff;
 }
 .list {
   list-style: none;
@@ -10,54 +10,211 @@ body {
 .link {
   text-decoration: none;
 }
-/* top line */
-.logo-web {
+.notitle {
+  opacity: 0;
+}
+/* header */
+.header-web {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
-  font-family: "Raleway";
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #4d5ae5;
 }
-.logo-studio {
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-family: "Raleway";
   color: #2e2f42;
 }
-.header-list {
-  font-weight: 600;
+.menu-link {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 2;
-
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #2e2f42;
 }
-.maill {
-  font-weight: 400;
+.menu-link:focus,
+.menu-link:hover {
+  color: #404bbf;
+}
+.mail,
+.number {
   font-size: 16px;
-  line-height: 24px;
-
+  line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #434455;
 }
-.phone {
+.mail:focus,
+.number:focus,
+.mail:hover,
+.number:hover {
+  color: #404bbf;
+}
+/* hearo */
+.hearo {
+  background: #2e2f42;
+}
+.hearo-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.hearo-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hearo-btn:focus,
+.hearo-btn:hover {
+  background-color: #404bbf;
+}
+/* advantage */
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* doing */
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* team */
+.team {
+  background: #f4f4fd;
+}
+.team-minititles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* footer */
+.footer {
+  background: #2e2f42;
+}
+.footer-link {
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-web {
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-text {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* page portfolio */
+
+/* btn */
+.batton-list {
+  background: #f4f4fd;
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.batton-list:hover,
+.batton-list:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+/* all row */
+.row-title {
+  font-weight: 500;
+  font-size: 20px;
   line-height: 24px;
 
   letter-spacing: 0.02em;
 
+  color: #2e2f42;
+}
+.row-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   color: #434455;
 }

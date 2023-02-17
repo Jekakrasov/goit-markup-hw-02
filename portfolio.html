@@ -4,118 +4,170 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main Page</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto&family=Roboto+Mono:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- top line -->
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo link"
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo link"
+          ><span class="header-web">Web</span>Studio</a
         >
-        <ul class="header-list list">
-          <li><a href="./index.html" class="link-studio link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="link-portfolio link">Portfolio</a>
+        <ul class="menu list">
+          <li class="menu-items">
+            <a href="./index.html" class="menu-link link">Studio</a>
           </li>
-          <li><a href="" class="link-contacts link">Contacts</a></li>
+          <li class="menu-items">
+            <a href="./portfolio.html" class="menu-link link">Portfolio</a>
+          </li>
+          <li class="menu-items">
+            <a href="" class="menu-link link">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul class="contacts list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="maill link"
+      <address class="contacts">
+        <ul class="contacts-list list">
+          <li class="contact-mail">
+            <a href="mailto:info@devstudio.com" class="mail link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+110001111111" class="phone link"
+          <li class="contact-number">
+            <a href="tel:+110001111111" class="number link"
               >+11 (000) 111-11-11</a
             >
           </li>
         </ul>
       </address>
     </header>
+    <!-- section buttons -->
     <main>
-      <!-- section buttons -->
-
-      <section>
-        <h1>portfolio</h1>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
+      <section class="btn-nav">
+        <h1 class="notitle">portfolio</h1>
+        <nav>
+          <ul class="btn-list list">
+            <li>
+              <button type="button" class="btn-all batton-list">All</button>
+            </li>
+            <li>
+              <button type="button" class="btn-site batton-list">
+                Web Site
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn-app batton-list">App</button>
+            </li>
+            <li>
+              <button type="button" class="btn-design batton-list">
+                Design
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn-marketing batton-list">
+                Marketing
+              </button>
+            </li>
+          </ul>
+        </nav>
       </section>
       <!-- row1 -->
-      <h2>content</h2>
-      <section>
-        <ul>
+      <h2 class="notitle">content</h2>
+      <section class="rowone">
+        <ul class="rowone-list list">
           <li>
-            <img src="./images/list.jpg" alt="Banking App Interface Concept" />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <img
+              src="./images/list.jpg"
+              alt="Banking App Interface Concept"
+              width="360"
+              height="300"
+            />
+            <h3 class="row-title">Banking App Interface Concept</h3>
+            <p class="row-text">App</p>
           </li>
           <li>
-            <img src="./images/phone.jpg" alt="Cashless Payment" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <img
+              src="./images/phone.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3 class="row-title">Cashless Payment</h3>
+            <p class="row-text">Marketing</p>
           </li>
           <li>
-            <img src="./images/comp.jpg" alt="Meditaion App" />
-            <h3>Meditaion App</h3>
-            <p>App</p>
+            <img
+              src="./images/comp.jpg"
+              alt="Meditaion App"
+              width="360"
+              height="300"
+            />
+            <h3 class="row-title">Meditaion App</h3>
+            <p class="row-text">App</p>
           </li>
           <!-- row2 -->
           <li>
-            <img src="./images/car.jpg" alt="car" />
-            <h3>Taxi Service</h3>
+            <img src="./images/car.jpg" alt="car" width="360" height="300" />
+            <h3 class="row-title">Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/girl.jpg" alt="girl" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <img src="./images/girl.jpg" alt="girl" width="360" height="300" />
+            <h3 class="row-title">Screen Illustrations</h3>
+            <p class="row-text">Design</p>
           </li>
           <li>
-            <img src="./images/mobile.jpg" alt="mobile" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <img
+              src="./images/mobile.jpg"
+              alt="mobile"
+              width="360"
+              height="300"
+            />
+            <h3 class="row-title">Online Courses</h3>
+            <p class="row-text">Marketing</p>
           </li>
 
           <!-- row3 -->
           <li>
-            <img src="./images/insta.jpg" alt="instagramm" />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <img
+              src="./images/insta.jpg"
+              alt="instagramm"
+              width="360"
+              height="300"
+            />
+            <h3 class="row-title">Instagram Stories Concept</h3>
+            <p class="row-text">Design</p>
           </li>
           <li>
-            <img src="./images/food.jpg" alt="food" />
+            <img src="./images/food.jpg" alt="food" width="360" height="300" />
             <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <p class="row-text">Web Site</p>
           </li>
           <li>
-            <img src="./images/cofee.jpg" alt="coffe" />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <img
+              src="./images/cofee.jpg"
+              alt="coffe"
+              width="360"
+              height="300"
+            />
+            <h3 class="row-title">Fresh Coffee</h3>
+            <p class="row-text">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="footer-link link"
+        ><span class="footer-web">Web</span>Studio</a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
