@@ -1,8 +1,15 @@
 /* colors */
+/* заголовки #2e2f42 */
+/* все р #434455 */
+/* бекграунд #FFFFFF */
+/* бекграунд2 #F4F4FD */
+/* хиро и футер #2E2F42 */
+/* iris #4D5AE5; */
 
 body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
+  color: #2e2f42;
 }
 .list {
   list-style: none;
@@ -45,7 +52,12 @@ body {
   color: #2e2f42;
 }
 .menu-link:focus,
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:active {
+  color: #404bbf;
+}
+.menu-link:active {
+  text-decoration: underline;
   color: #404bbf;
 }
 .mail,
@@ -81,7 +93,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-
+  cursor: pointer;
   color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -182,7 +194,7 @@ body {
 /* btn */
 .batton-list {
   background: #f4f4fd;
-
+  cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-family: "Roboto";
@@ -212,7 +224,6 @@ body {
   color: #2e2f42;
 }
 .row-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
