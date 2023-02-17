@@ -1,15 +1,20 @@
-/* colors */
-/* заголовки #2e2f42 */
-/* все р #434455 */
-/* бекграунд #FFFFFF */
-/* бекграунд2 #F4F4FD */
-/* хиро и футер #2E2F42 */
-/* iris #4D5AE5; */
-
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white: #ffffff;
+}
 body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
-  color: #2e2f42;
+  background: var(--white);
+  color: var(--dark);
 }
 .list {
   list-style: none;
@@ -30,7 +35,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 .header-logo {
   font-family: "Raleway";
@@ -42,40 +47,40 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .menu-link:focus,
 .menu-link:hover,
 .menu-link:active {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 .menu-link:active {
   text-decoration: underline;
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 .mail,
 .number {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 .mail:focus,
 .number:focus,
 .mail:hover,
 .number:hover {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 /* hearo */
 .hearo {
-  background: #2e2f42;
+  background: var(--dark);
 }
 .hearo-title {
   font-weight: 700;
@@ -84,7 +89,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .hearo-btn {
   font-weight: 500;
@@ -94,19 +99,19 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
-  background: #4d5ae5;
+  background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .hearo-btn:focus,
 .hearo-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--pressed-state);
 }
 /* advantage */
 .feature-title {
@@ -114,13 +119,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .feature-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 /* doing */
 .doing-title {
@@ -130,11 +134,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 /* team */
 .team {
-  background: #f4f4fd;
+  background: var(--light);
 }
 .team-minititles {
   font-weight: 500;
@@ -143,19 +146,17 @@ body {
 
   text-align: center;
   letter-spacing: 0.02em;
-
-  color: #2e2f42;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 /* footer */
 .footer {
-  background: #2e2f42;
+  background: var(--dark);
 }
 .footer-link {
   font-family: "Raleway";
@@ -167,7 +168,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--light);
 }
 .footer-web {
   font-family: "Raleway";
@@ -179,23 +180,23 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--accent);
 }
 
 /* page portfolio */
 
 /* btn */
 .batton-list {
-  background: #f4f4fd;
+  background: var(--light);
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent);
   border-radius: 4px;
   font-family: "Roboto";
   font-style: normal;
@@ -206,12 +207,12 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 .batton-list:hover,
 .batton-list:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--pressed-state);
+  color: var(--white);
 }
 /* all row */
 .row-title {
@@ -220,12 +221,10 @@ body {
   line-height: 1.2;
 
   letter-spacing: 0.02em;
-
-  color: #2e2f42;
 }
 .row-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
