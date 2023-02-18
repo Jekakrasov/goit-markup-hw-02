@@ -72,6 +72,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
+.contacts {
+  font-style: normal;
+}
 .mail:focus,
 .number:focus,
 .mail:hover,
@@ -206,6 +209,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
+  font-family: inherit;
 }
 .batton-list:hover,
 .batton-list:focus {
