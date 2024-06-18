@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Разметка страницы 
+# goit-markup-hw-02
+css и визуал
