@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
 
@@ -10,15 +23,17 @@
     <!-- header  -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <ul class="header-navigation">
+          <li><a href="" class="header-nav-a">Studio</a></li>
+          <li><a href="" class="header-nav-a">Portfolio</a></li>
+          <li><a href="" class="header-nav-a">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="header-address">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -26,9 +41,9 @@
     </header>
     <main>
       <!-- heero -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hearo-img">
+        <h1 class="hearo-text">Effective Solutions for Your Business</h1>
+        <button type="button" class="hearo-button">Order Service</button>
       </section>
       <!-- section-feature -->
       <section>
@@ -107,6 +122,62 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Our Portfolio -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/banking.jpg"
+              alt="banking"
+              height="300"
+              width="360"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/cashless.jpg"
+              alt="cashless"
+              height="300"
+              width="360"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/meditation.jpg"
+              alt="meditation"
+              height="300"
+              width="360"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/taxi.jpg" alt="taxi" height="300" width="360" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/screen.jpg"
+              alt="screen"
+              height="300"
+              width="360"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/taxi.jpg" alt="taxi" height="300" width="360" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
