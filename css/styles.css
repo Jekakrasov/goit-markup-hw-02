@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", "Raleway", sans-serif;
+  font-family: "roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -15,19 +15,21 @@ p {
 /* header */
 .logo {
   text-transform: uppercase;
-  font-family: relaway;
+  font-family: "relaway", sans-serif;
   font-weight: 700;
-  color: #2e2f42;
-}
-.logo-web {
   color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-studio {
+  color: #2e2f42;
 }
 .header-nav-a {
   color: #2e2f42;
-  font-family: Roboto;
+  line-height: 1.5;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -35,14 +37,13 @@ p {
 .header-nav-a:focus {
   color: #404bbf;
 }
-.header-address > li > a {
+.adress-a {
   color: #434455;
-
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 /* hearo */
 .hearo-img {
