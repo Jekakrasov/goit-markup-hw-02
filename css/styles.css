@@ -13,7 +13,7 @@ ul {
 /* header */
 .logo {
   text-transform: uppercase;
-  font-family: "Relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #4d5ae5;
   font-size: 18px;
@@ -34,7 +34,7 @@ ul {
 .header-nav-a:focus {
   color: #404bbf;
 }
-.adress {
+.address {
   font-style: normal;
 }
 .adress-a {
@@ -55,7 +55,7 @@ ul {
 }
 .hearo-text {
   font-size: 56px;
-
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -64,8 +64,11 @@ ul {
   background: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .hearo-button:hover {
   background-color: #404bbf;
