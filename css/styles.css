@@ -13,7 +13,7 @@ ul {
 /* header */
 .logo {
   text-transform: uppercase;
-  font-family: "relaway", sans-serif;
+  font-family: "Relaway", sans-serif;
   font-weight: 700;
   color: #4d5ae5;
   font-size: 18px;
@@ -34,13 +34,20 @@ ul {
 .header-nav-a:focus {
   color: #404bbf;
 }
+.adress {
+  font-style: normal;
+}
 .adress-a {
   color: #434455;
-  font-style: normal;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.adress-a:hover,
+.adress-a:focus {
+  color: #404bbf;
 }
 /* hearo */
 .hearo-img {
