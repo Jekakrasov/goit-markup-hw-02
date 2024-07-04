@@ -131,3 +131,11 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+.footer-p {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
