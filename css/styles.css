@@ -70,10 +70,22 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
-.hearo-button:hover {
+.hearo-button:focus {
   background-color: #404bbf;
 }
 
+/* feature */
+.feature-h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* base */
 .logo-bottom {
   text-transform: uppercase;
