@@ -70,3 +70,14 @@ ul {
 .hearo-button:hover {
   background-color: #404bbf;
 }
+
+/* base */
+.logo-bottom {
+  text-transform: uppercase;
+  font-family: "Relaway", sans-serif;
+  font-weight: 700;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
