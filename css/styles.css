@@ -86,6 +86,33 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* our team */
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-h2 {
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+.team-p {
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* base */
 .logo-bottom {
   text-transform: uppercase;
