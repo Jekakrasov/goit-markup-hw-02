@@ -9,9 +9,7 @@ a {
 ul {
   list-style-type: none;
 }
-p {
-  text-align: left;
-}
+
 /* header */
 .logo {
   text-transform: uppercase;
@@ -31,7 +29,6 @@ p {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 .header-nav-a:hover,
 .header-nav-a:focus {
@@ -47,16 +44,11 @@ p {
 }
 /* hearo */
 .hearo-img {
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
   background: #2e2f42;
 }
 .hearo-text {
   font-size: 56px;
-  line-height: 60;
+
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -65,11 +57,8 @@ p {
   background: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24;
+
   letter-spacing: 0.04em;
-  text-align: left;
 }
 .hearo-button:hover {
   background-color: #404bbf;
