@@ -119,6 +119,9 @@ ul {
   letter-spacing: 0.02em;
 }
 /* base */
+.footer {
+  background-color: #2e2f42;
+}
 .logo-bottom {
   text-transform: uppercase;
   font-family: "Relaway", sans-serif;
