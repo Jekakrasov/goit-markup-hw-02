@@ -93,7 +93,7 @@ ul {
 .section-team {
   background-color: #f4f4fd;
 }
-.team-h2 {
+.title {
   font-size: 36px;
   text-transform: capitalize;
   line-height: 1.11;
@@ -104,7 +104,7 @@ ul {
 .team-li {
   background-color: #ffffff;
 }
-.team-h3 {
+.team-h {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
